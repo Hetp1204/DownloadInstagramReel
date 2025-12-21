@@ -44,6 +44,8 @@ export const metadata: Metadata = {
     },
 }
 
+import Script from 'next/script' // Import Script
+
 export default function RootLayout({
     children,
 }: {
@@ -54,6 +56,11 @@ export default function RootLayout({
             <body className={inter.className}>
                 {children}
                 <Analytics />
+                {/* Adsterra Script */}
+                <Script
+                    src="https://pl28303064.effectivegatecpm.com/06/e9/e9/06e9e956e3726f7200e2db5d1cdb1c20.js"
+                    strategy="lazyOnload"
+                />
             </body>
         </html>
     )
