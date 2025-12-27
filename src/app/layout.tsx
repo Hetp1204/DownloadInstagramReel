@@ -62,10 +62,10 @@ export default function RootLayout({
                     strategy="lazyOnload"
                 />
                 {/* Adsterra Popunder Script */}
-                <Script
+                {/* <Script
                     src="https://pl28303183.effectivegatecpm.com/99/2c/ca/992ccaa070bc43fb629e951b611be356.js"
                     strategy="lazyOnload"
-                />
+                /> */}
             </body>
         </html>
     )

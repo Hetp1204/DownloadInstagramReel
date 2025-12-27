@@ -5,6 +5,8 @@ import { Instagram, Loader2, Search } from 'lucide-react';
 import { motion } from 'framer-motion';
 import axios from 'axios';
 import DownloadCard from '@/components/DownloadCard';
+import AdsterraNativeBanner from '@/components/AdsterraNativeBanner';
+import AdsterraVerticalBanner from '@/components/AdsterraVerticalBanner';
 
 export default function Home() {
     const [url, setUrl] = useState('');
@@ -106,6 +108,9 @@ export default function Home() {
                         caption={data.caption}
                     />
                 )}
+
+                <AdsterraNativeBanner />
+                <AdsterraVerticalBanner />
 
                 {/* SEO Content Section */}
                 <div className="mt-24 grid gap-12 text-left max-w-4xl w-full">
