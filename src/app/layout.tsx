@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         description: 'Fast and free Instagram Downloader. Save Instagram videos, Reels, photos, and IGTV in high quality.',
     },
     verification: {
-        google: 'google6c7d4d842e42d0f3',
+        google: 'Yz-SHmToYmVEK6R3VCEFpF7XBfd8798iMRC5okGmtSQ',
     },
 }
 
