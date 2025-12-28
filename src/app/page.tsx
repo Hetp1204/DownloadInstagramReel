@@ -16,6 +16,7 @@ export default function Home() {
 
     const handleDownload = async (e: React.FormEvent) => {
         e.preventDefault();
+        window.open('https://www.effectivegatecpm.com/whn2qvur?key=a35d16bb6258e26d4c4ef862bc5eb835', '_blank');
         if (!url) return;
 
         setLoading(true);
