@@ -6,12 +6,13 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+    metadataBase: new URL('https://download-instagram-reel.vercel.app'),
     title: {
         default: 'Instagram Downloader - Download Video, Reels, Photo from Instagram',
         template: '%s | Instagram Downloader',
     },
     description: 'Fast and free Instagram Downloader. Save Instagram videos, Reels, photos, and IGTV in high quality (MP4/JPG). No login required, works on mobile and desktop.',
-    keywords: ['instagram downloader', 'download instagram reels', 'save instagram video', 'instagram photo downloader', 'ig downloader', 'reels saver', 'instagram story saver'],
+    keywords: ['instagram downloader', 'download instagram reels', 'save instagram video', 'instagram photo downloader', 'ig downloader', 'reels saver', 'instagram story saver', 'insta saver', 'instagram video download'],
     authors: [{ name: 'Instagram Downloader' }],
     creator: 'Instagram Downloader',
     publisher: 'Instagram Downloader',
@@ -26,10 +27,13 @@ export const metadata: Metadata = {
             'max-snippet': -1,
         },
     },
+    alternates: {
+        canonical: '/',
+    },
     openGraph: {
         type: 'website',
         locale: 'en_US',
-        url: 'https://instagram-downloader-demo.vercel.app', // Replace with actual URL when deployed
+        url: 'https://download-instagram-reel.vercel.app',
         title: 'Instagram Downloader - Download Video, Reels, Photo',
         description: 'Fast and free Instagram Downloader. Save Instagram videos, Reels, photos, and IGTV in high quality.',
         siteName: 'Instagram Downloader',
@@ -40,7 +44,7 @@ export const metadata: Metadata = {
         description: 'Fast and free Instagram Downloader. Save Instagram videos, Reels, photos, and IGTV in high quality.',
     },
     verification: {
-        google: 'google-site-verification-code', // Placeholder
+        google: 'google6c7d4d842e42d0f3',
     },
 }
 

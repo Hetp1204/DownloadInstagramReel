@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://instagram-downloader-demo.vercel.app' // Replace with your actual domain
+    const baseUrl = 'https://download-instagram-reel.vercel.app'
 
     return [
         {

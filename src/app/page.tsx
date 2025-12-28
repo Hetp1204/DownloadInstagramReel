@@ -40,6 +40,24 @@ export default function Home() {
 
     return (
         <main className="min-h-screen flex flex-col items-center justify-between p-4 md:p-24 relative overflow-x-hidden">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        '@context': 'https://schema.org',
+                        '@type': 'SoftwareApplication',
+                        name: 'Instagram Downloader',
+                        operatingSystem: 'Any',
+                        applicationCategory: 'UtilitiesApplication',
+                        offers: {
+                            '@type': 'Offer',
+                            price: '0',
+                            priceCurrency: 'USD',
+                        },
+                        description: 'Download Instagram Reels, Videos, and Photos in high quality for free.',
+                    }),
+                }}
+            />
             {/* Background Elements */}
             <div className="absolute inset-0 z-0 pointer-events-none">
                 <div className="absolute top-20 left-20 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl" />

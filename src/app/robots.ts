@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/api/',
         },
-        sitemap: 'https://instagram-downloader-demo.vercel.app/sitemap.xml', // Replace with your actual domain
+        sitemap: 'https://download-instagram-reel.vercel.app/sitemap.xml',
     }
 }
